@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A132FF91BCE13B300B2172D /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A132FF81BCE13B300B2172D /* PersonTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		7A194F681BCE1CC200B81293 /* bruce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A194F671BCE1CC200B81293 /* bruce.jpg */; settings = {ASSET_TAGS = (); }; };
+		7A194F6A1BCE1D0900B81293 /* clint.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A194F691BCE1D0900B81293 /* clint.jpeg */; settings = {ASSET_TAGS = (); }; };
+		7A194F6C1BCE1D9500B81293 /* russell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A194F6B1BCE1D9500B81293 /* russell.png */; settings = {ASSET_TAGS = (); }; };
+		7A31A2941BB4EAB70093B87B /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31A2931BB4EAB70093B87B /* RosterTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7A4FFE711BC4CDB800F1A8AF /* kam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A4FFE701BC4CDB800F1A8AF /* kam.jpg */; settings = {ASSET_TAGS = (); }; };
+		7A4FFE731BC4CFC100F1A8AF /* sherman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A4FFE721BC4CFC100F1A8AF /* sherman.jpg */; settings = {ASSET_TAGS = (); }; };
 		7A893EA11BB23D8F005BC930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A893EA01BB23D8F005BC930 /* AppDelegate.swift */; };
 		7A893EA31BB23D8F005BC930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A893EA21BB23D8F005BC930 /* ViewController.swift */; };
 		7A893EA61BB23D8F005BC930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A893EA41BB23D8F005BC930 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		7A893EAB1BB23D8F005BC930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A893EA91BB23D8F005BC930 /* LaunchScreen.storyboard */; };
 		7A893EB61BB23D8F005BC930 /* Assignment_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A893EB51BB23D8F005BC930 /* Assignment_2Tests.swift */; };
 		7A893EC11BB23D8F005BC930 /* Assignment_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A893EC01BB23D8F005BC930 /* Assignment_2UITests.swift */; };
+		7AC913771BBCC85C00C1D391 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC913761BBCC85C00C1D391 /* PersonDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7AF294B81BBB7EC4006E9F95 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF294B71BBB7EC4006E9F95 /* Person.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A132FF81BCE13B300B2172D /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		7A194F671BCE1CC200B81293 /* bruce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bruce.jpg; sourceTree = "<group>"; };
+		7A194F691BCE1D0900B81293 /* clint.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clint.jpeg; sourceTree = "<group>"; };
+		7A194F6B1BCE1D9500B81293 /* russell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = russell.png; sourceTree = "<group>"; };
+		7A31A2931BB4EAB70093B87B /* RosterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterTableViewController.swift; sourceTree = "<group>"; };
+		7A4FFE701BC4CDB800F1A8AF /* kam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kam.jpg; sourceTree = "<group>"; };
+		7A4FFE721BC4CFC100F1A8AF /* sherman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherman.jpg; sourceTree = "<group>"; };
 		7A893E9D1BB23D8F005BC930 /* Assignment 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A893EA01BB23D8F005BC930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A893EA21BB23D8F005BC930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		7A893EBC1BB23D8F005BC930 /* Assignment 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A893EC01BB23D8F005BC930 /* Assignment_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_2UITests.swift; sourceTree = "<group>"; };
 		7A893EC21BB23D8F005BC930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC913761BBCC85C00C1D391 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		7AF294B71BBB7EC4006E9F95 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A31A2951BB4EAF40093B87B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A893EA21BB23D8F005BC930 /* ViewController.swift */,
+				7A31A2931BB4EAB70093B87B /* RosterTableViewController.swift */,
+				7AC913761BBCC85C00C1D391 /* PersonDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7A31A2961BB4EB290093B87B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A893EA41BB23D8F005BC930 /* Main.storyboard */,
+				7A132FF81BCE13B300B2172D /* PersonTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7A31A2971BB4EEF60093B87B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AF294B71BBB7EC4006E9F95 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7A893E941BB23D8F005BC930 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +143,17 @@
 			isa = PBXGroup;
 			children = (
 				7A893EA01BB23D8F005BC930 /* AppDelegate.swift */,
-				7A893EA21BB23D8F005BC930 /* ViewController.swift */,
-				7A893EA41BB23D8F005BC930 /* Main.storyboard */,
+				7A31A2971BB4EEF60093B87B /* Model */,
+				7A31A2951BB4EAF40093B87B /* Controllers */,
+				7A31A2961BB4EB290093B87B /* Views */,
 				7A893EA71BB23D8F005BC930 /* Assets.xcassets */,
 				7A893EA91BB23D8F005BC930 /* LaunchScreen.storyboard */,
 				7A893EAC1BB23D8F005BC930 /* Info.plist */,
+				7A194F671BCE1CC200B81293 /* bruce.jpg */,
+				7A4FFE701BC4CDB800F1A8AF /* kam.jpg */,
+				7A194F691BCE1D0900B81293 /* clint.jpeg */,
+				7A4FFE721BC4CFC100F1A8AF /* sherman.jpg */,
+				7A194F6B1BCE1D9500B81293 /* russell.png */,
 			);
 			path = "Assignment 2";
 			sourceTree = "<group>";
@@ -228,9 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A194F6C1BCE1D9500B81293 /* russell.png in Resources */,
 				7A893EAB1BB23D8F005BC930 /* LaunchScreen.storyboard in Resources */,
 				7A893EA81BB23D8F005BC930 /* Assets.xcassets in Resources */,
 				7A893EA61BB23D8F005BC930 /* Main.storyboard in Resources */,
+				7A194F6A1BCE1D0900B81293 /* clint.jpeg in Resources */,
+				7A4FFE711BC4CDB800F1A8AF /* kam.jpg in Resources */,
+				7A4FFE731BC4CFC100F1A8AF /* sherman.jpg in Resources */,
+				7A194F681BCE1CC200B81293 /* bruce.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A132FF91BCE13B300B2172D /* PersonTableViewCell.swift in Sources */,
+				7A31A2941BB4EAB70093B87B /* RosterTableViewController.swift in Sources */,
 				7A893EA31BB23D8F005BC930 /* ViewController.swift in Sources */,
+				7AC913771BBCC85C00C1D391 /* PersonDetailViewController.swift in Sources */,
+				7AF294B81BBB7EC4006E9F95 /* Person.swift in Sources */,
 				7A893EA11BB23D8F005BC930 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +543,7 @@
 				7A893EC71BB23D8F005BC930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A893EC81BB23D8F005BC930 /* Build configuration list for PBXNativeTarget "Assignment 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +552,7 @@
 				7A893ECA1BB23D8F005BC930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A893ECB1BB23D8F005BC930 /* Build configuration list for PBXNativeTarget "Assignment 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +561,7 @@
 				7A893ECD1BB23D8F005BC930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
